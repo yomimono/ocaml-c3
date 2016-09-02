@@ -4,3 +4,4 @@ script: bash -ex .travis-opam.sh
 sudo: true
 env:
   - OCAML_VERSION=4.02 PACKAGE=c3
+  - OCAML_VERSION=4.03 PACKAGE=c3
